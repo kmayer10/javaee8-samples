@@ -232,6 +232,12 @@
             <version>1.7.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.owasp</groupId>
+            <artifactId>dependency-check-maven</artifactId>
+            <version>4.0.0</version>
+            <type>maven-plugin</type>
+        </dependency>
     </dependencies>
 
 
