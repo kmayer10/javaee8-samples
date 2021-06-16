@@ -133,7 +133,7 @@
             <dependency>
                 <groupId>fish.payara.arquillian</groupId>
                 <artifactId>payara-client-ee8</artifactId>
-                <version>1.0.Beta3</version>
+                <version>2.4</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
@@ -235,7 +235,7 @@
         <dependency>
             <groupId>org.owasp</groupId>
             <artifactId>dependency-check-maven</artifactId>
-            <version>4.0.0</version>
+            <version>6.0.4</version>
             <type>maven-plugin</type>
         </dependency>
     </dependencies>
