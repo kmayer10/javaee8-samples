@@ -235,7 +235,7 @@
         <dependency>
             <groupId>org.owasp</groupId>
             <artifactId>dependency-check-maven</artifactId>
-            <version>4.0.0</version>
+            <version>7.4.4</version>
             <type>maven-plugin</type>
         </dependency>
     </dependencies>
@@ -253,15 +253,10 @@
 
         <plugins>
             <plugin>
-                <groupId>org.owasp</groupId>
+                <groupId>org.
+                </groupId>
                 <artifactId>dependency-check-maven</artifactId>
-                <version>4.0.0</version>
-                <configuration>
-                    <cveUrl12Modified>http://internal-mirror.mycorp.com/downloads/nist/nvdcve-Modified.xml.gz</cveUrl12Modified>
-                    <cveUrl20Modified>http://internal-mirror.mycorp.com/downloads/nist/nvdcve-2.0-Modified.xml.gz</cveUrl20Modified>
-                    <cveUrl12Base>http://internal-mirror.mycorp.com/downloads/nist/nvdcve-%d.xml</cveUrl12Base>
-                    <cveUrl20Base>http://internal-mirror.mycorp.com/downloads/nist/nvdcve-2.0-%d.xml</cveUrl20Base>
-                </configuration>
+                <version>7.4.4</version>
                 <executions>
                     <execution>
                         <goals>
