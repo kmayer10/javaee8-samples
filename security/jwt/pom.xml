@@ -13,7 +13,7 @@
     <name>Java EE 8 Samples: Security - JWT</name>
     
     <properties>
-        <version.jsonwebtoken>0.6.0</version.jsonwebtoken>
+        <version.jsonwebtoken>0.12.0</version.jsonwebtoken>
     </properties>
     
     <dependencies>
